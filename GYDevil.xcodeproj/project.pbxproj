@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2644D77222F046BB008BD93C /* GYMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2644D77022F046BB008BD93C /* GYMatchViewController.xib */; };
-		2644D77322F046BB008BD93C /* GYMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77122F046BB008BD93C /* GYMatchViewController.m */; };
-		2644D77622F046D7008BD93C /* UIView+GYTransitaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */; };
-		2644D77D22F04735008BD93C /* GYViewContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77B22F04735008BD93C /* GYViewContext.m */; };
-		2663AD9622F0460C009A15E3 /* UIViewController+GYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26028E4722DF22150094B263 /* UIViewController+GYTransition.m */; };
 		2663AD9822F0460C009A15E3 /* GYTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26028E4222DF20850094B263 /* GYTransitionAnimation.m */; };
 		2663AD9922F0460C009A15E3 /* GYDevil.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D09B4822E3855E007FCBC0 /* GYDevil.m */; };
 		2663AD9A22F0460C009A15E3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B3322D5D52D0093C5D4 /* MainViewController.m */; };
@@ -24,20 +19,16 @@
 		26BB5B3822D5DD6A0093C5D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B3722D5DD6A0093C5D4 /* Default-568h@2x.png */; };
 		26BB5B3C22D5DEB80093C5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B2E22D5D4D50093C5D4 /* LaunchScreen.storyboard */; };
 		26BB5B3D22D5DEB80093C5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B2C22D5D4D50093C5D4 /* Main.storyboard */; };
+		B68603C72340AED7001D6AB0 /* GYViewContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B68603C62340AED7001D6AB0 /* GYViewContext.m */; };
+		B68603CE2340AF94001D6AB0 /* GYMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68603CB2340AF94001D6AB0 /* GYMatchViewController.xib */; };
+		B68603CF2340AF94001D6AB0 /* GYMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68603CD2340AF94001D6AB0 /* GYMatchViewController.m */; };
+		B68603D22340B073001D6AB0 /* UIView+GYTransitaion.m in Sources */ = {isa = PBXBuildFile; fileRef = B68603D02340B073001D6AB0 /* UIView+GYTransitaion.m */; };
+		B68603D52340B07F001D6AB0 /* UIViewController+GYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B68603D42340B07F001D6AB0 /* UIViewController+GYTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26028E4122DF20850094B263 /* GYTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYTransitionAnimation.h; sourceTree = "<group>"; };
 		26028E4222DF20850094B263 /* GYTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYTransitionAnimation.m; sourceTree = "<group>"; };
-		26028E4622DF22150094B263 /* UIViewController+GYTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GYTransition.h"; sourceTree = "<group>"; };
-		26028E4722DF22150094B263 /* UIViewController+GYTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GYTransition.m"; sourceTree = "<group>"; };
-		2644D76F22F046BB008BD93C /* GYMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYMatchViewController.h; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.h"; sourceTree = "<group>"; };
-		2644D77022F046BB008BD93C /* GYMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GYMatchViewController.xib; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.xib"; sourceTree = "<group>"; };
-		2644D77122F046BB008BD93C /* GYMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYMatchViewController.m; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.m"; sourceTree = "<group>"; };
-		2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GYTransitaion.m"; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Extension/UIView+GYTransitaion.m"; sourceTree = "<group>"; };
-		2644D77522F046D7008BD93C /* UIView+GYTransitaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GYTransitaion.h"; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Extension/UIView+GYTransitaion.h"; sourceTree = "<group>"; };
-		2644D77B22F04735008BD93C /* GYViewContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYViewContext.m; sourceTree = "<group>"; };
-		2644D77C22F04735008BD93C /* GYViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYViewContext.h; sourceTree = "<group>"; };
 		26BB5B0522D5D2E50093C5D4 /* GYDevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYDevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BB5B2022D5D4B00093C5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26BB5B2122D5D4B00093C5D4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +47,15 @@
 		26BB5B8F22D5ECE80093C5D4 /* BuiltInTransitionExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltInTransitionExample.m; sourceTree = "<group>"; };
 		26D09B4722E3855E007FCBC0 /* GYDevil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYDevil.h; sourceTree = "<group>"; };
 		26D09B4822E3855E007FCBC0 /* GYDevil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYDevil.m; sourceTree = "<group>"; };
+		B68603C52340AED7001D6AB0 /* GYViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYViewContext.h; path = "../../../../../../../../../../Users/liyang/Library/Mobile Documents/com~apple~CloudDocs/.Trash/GYViewContext.h"; sourceTree = "<group>"; };
+		B68603C62340AED7001D6AB0 /* GYViewContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYViewContext.m; path = "../../../../../../../../../../Users/liyang/Library/Mobile Documents/com~apple~CloudDocs/.Trash/GYViewContext.m"; sourceTree = "<group>"; };
+		B68603CB2340AF94001D6AB0 /* GYMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYMatchViewController.xib; sourceTree = "<group>"; };
+		B68603CC2340AF94001D6AB0 /* GYMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYMatchViewController.h; sourceTree = "<group>"; };
+		B68603CD2340AF94001D6AB0 /* GYMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYMatchViewController.m; sourceTree = "<group>"; };
+		B68603D02340B073001D6AB0 /* UIView+GYTransitaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GYTransitaion.m"; sourceTree = "<group>"; };
+		B68603D12340B073001D6AB0 /* UIView+GYTransitaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GYTransitaion.h"; sourceTree = "<group>"; };
+		B68603D32340B07F001D6AB0 /* UIViewController+GYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GYTransition.h"; sourceTree = "<group>"; };
+		B68603D42340B07F001D6AB0 /* UIViewController+GYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GYTransition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		26028E4522DF21FB0094B263 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2644D77522F046D7008BD93C /* UIView+GYTransitaion.h */,
-				2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */,
-				26028E4622DF22150094B263 /* UIViewController+GYTransition.h */,
-				26028E4722DF22150094B263 /* UIViewController+GYTransition.m */,
+				B68603D32340B07F001D6AB0 /* UIViewController+GYTransition.h */,
+				B68603D42340B07F001D6AB0 /* UIViewController+GYTransition.m */,
+				B68603D12340B073001D6AB0 /* UIView+GYTransitaion.h */,
+				B68603D02340B073001D6AB0 /* UIView+GYTransitaion.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 		2644D77A22F04735008BD93C /* Context */ = {
 			isa = PBXGroup;
 			children = (
-				2644D77C22F04735008BD93C /* GYViewContext.h */,
-				2644D77B22F04735008BD93C /* GYViewContext.m */,
+				B68603C52340AED7001D6AB0 /* GYViewContext.h */,
+				B68603C62340AED7001D6AB0 /* GYViewContext.m */,
 			);
 			name = Context;
 			path = "../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Context";
@@ -147,9 +147,9 @@
 				26BB5B8922D5E9810093C5D4 /* ExampleBaseViewController.m */,
 				26BB5B8E22D5ECE80093C5D4 /* BuiltInTransitionExample.h */,
 				26BB5B8F22D5ECE80093C5D4 /* BuiltInTransitionExample.m */,
-				2644D76F22F046BB008BD93C /* GYMatchViewController.h */,
-				2644D77122F046BB008BD93C /* GYMatchViewController.m */,
-				2644D77022F046BB008BD93C /* GYMatchViewController.xib */,
+				B68603CC2340AF94001D6AB0 /* GYMatchViewController.h */,
+				B68603CD2340AF94001D6AB0 /* GYMatchViewController.m */,
+				B68603CB2340AF94001D6AB0 /* GYMatchViewController.xib */,
 				26BB5B1F22D5D45A0093C5D4 /* Resources */,
 			);
 			path = Examples;
@@ -229,7 +229,7 @@
 			files = (
 				26BB5B3C22D5DEB80093C5D4 /* LaunchScreen.storyboard in Resources */,
 				26BB5B3D22D5DEB80093C5D4 /* Main.storyboard in Resources */,
-				2644D77222F046BB008BD93C /* GYMatchViewController.xib in Resources */,
+				B68603CE2340AF94001D6AB0 /* GYMatchViewController.xib in Resources */,
 				26BB5B3622D5D9C30093C5D4 /* MainViewController.xib in Resources */,
 				26BB5B2722D5D4B00093C5D4 /* Assets.xcassets in Resources */,
 				26BB5B3822D5DD6A0093C5D4 /* Default-568h@2x.png in Resources */,
@@ -243,13 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2644D77D22F04735008BD93C /* GYViewContext.m in Sources */,
-				2644D77622F046D7008BD93C /* UIView+GYTransitaion.m in Sources */,
-				2663AD9622F0460C009A15E3 /* UIViewController+GYTransition.m in Sources */,
-				2644D77322F046BB008BD93C /* GYMatchViewController.m in Sources */,
+				B68603D52340B07F001D6AB0 /* UIViewController+GYTransition.m in Sources */,
+				B68603C72340AED7001D6AB0 /* GYViewContext.m in Sources */,
+				B68603CF2340AF94001D6AB0 /* GYMatchViewController.m in Sources */,
 				2663AD9822F0460C009A15E3 /* GYTransitionAnimation.m in Sources */,
 				2663AD9922F0460C009A15E3 /* GYDevil.m in Sources */,
 				2663AD9A22F0460C009A15E3 /* MainViewController.m in Sources */,
+				B68603D22340B073001D6AB0 /* UIView+GYTransitaion.m in Sources */,
 				2663AD9B22F0460C009A15E3 /* ExampleBaseViewController.m in Sources */,
 				2663AD9C22F0460C009A15E3 /* BuiltInTransitionExample.m in Sources */,
 				2663AD9E22F0460C009A15E3 /* AppDelegate.m in Sources */,

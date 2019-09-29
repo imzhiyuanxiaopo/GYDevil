@@ -31,6 +31,8 @@ static CGFloat kTHeight;
     self.button.layer.cornerRadius = 10;
     self.button.layer.masksToBounds = YES;
     self.button.devil.ID = @"黄色button";
+    
+    
 }
 - (IBAction)clickButton:(UIButton *)sender {
 //    GYMatchViewController1 *vc = GYMatchViewController1.new;

@@ -37,6 +37,11 @@
     [self.second addBorder];
     [self.third addBorder];
     [self.fourth addBorder];
+    
+    UIView *view = [UIView new];
+    view.backgroundColor = [UIColor redColor];
+    view.frame = CGRectMake(100, 100, 100, 200);
+    [self.view addSubview:view];
 }
 
 - (IBAction)clickFirst:(id)sender {
