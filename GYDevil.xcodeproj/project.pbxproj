@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2644D77222F046BB008BD93C /* GYMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2644D77022F046BB008BD93C /* GYMatchViewController.xib */; };
+		2644D77322F046BB008BD93C /* GYMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77122F046BB008BD93C /* GYMatchViewController.m */; };
+		2644D77622F046D7008BD93C /* UIView+GYTransitaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */; };
+		2644D77D22F04735008BD93C /* GYViewContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2644D77B22F04735008BD93C /* GYViewContext.m */; };
+		2663AD9622F0460C009A15E3 /* UIViewController+GYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26028E4722DF22150094B263 /* UIViewController+GYTransition.m */; };
+		2663AD9822F0460C009A15E3 /* GYTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26028E4222DF20850094B263 /* GYTransitionAnimation.m */; };
+		2663AD9922F0460C009A15E3 /* GYDevil.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D09B4822E3855E007FCBC0 /* GYDevil.m */; };
+		2663AD9A22F0460C009A15E3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B3322D5D52D0093C5D4 /* MainViewController.m */; };
+		2663AD9B22F0460C009A15E3 /* ExampleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B8922D5E9810093C5D4 /* ExampleBaseViewController.m */; };
+		2663AD9C22F0460C009A15E3 /* BuiltInTransitionExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B8F22D5ECE80093C5D4 /* BuiltInTransitionExample.m */; };
+		2663AD9E22F0460C009A15E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B2322D5D4B00093C5D4 /* AppDelegate.m */; };
+		2663AD9F22F0460C009A15E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BB5B2222D5D4B00093C5D4 /* main.m */; };
+		26BB5B2722D5D4B00093C5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B2022D5D4B00093C5D4 /* Assets.xcassets */; };
+		26BB5B3622D5D9C30093C5D4 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B3522D5D9C30093C5D4 /* MainViewController.xib */; };
+		26BB5B3822D5DD6A0093C5D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B3722D5DD6A0093C5D4 /* Default-568h@2x.png */; };
+		26BB5B3C22D5DEB80093C5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B2E22D5D4D50093C5D4 /* LaunchScreen.storyboard */; };
+		26BB5B3D22D5DEB80093C5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BB5B2C22D5D4D50093C5D4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26028E4122DF20850094B263 /* GYTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYTransitionAnimation.h; sourceTree = "<group>"; };
+		26028E4222DF20850094B263 /* GYTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYTransitionAnimation.m; sourceTree = "<group>"; };
+		26028E4622DF22150094B263 /* UIViewController+GYTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GYTransition.h"; sourceTree = "<group>"; };
+		26028E4722DF22150094B263 /* UIViewController+GYTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GYTransition.m"; sourceTree = "<group>"; };
+		2644D76F22F046BB008BD93C /* GYMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYMatchViewController.h; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.h"; sourceTree = "<group>"; };
+		2644D77022F046BB008BD93C /* GYMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GYMatchViewController.xib; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.xib"; sourceTree = "<group>"; };
+		2644D77122F046BB008BD93C /* GYMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYMatchViewController.m; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/GYDevil/Examples/GYMatchViewController.m"; sourceTree = "<group>"; };
+		2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GYTransitaion.m"; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Extension/UIView+GYTransitaion.m"; sourceTree = "<group>"; };
+		2644D77522F046D7008BD93C /* UIView+GYTransitaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GYTransitaion.h"; path = "../../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Extension/UIView+GYTransitaion.h"; sourceTree = "<group>"; };
+		2644D77B22F04735008BD93C /* GYViewContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYViewContext.m; sourceTree = "<group>"; };
+		2644D77C22F04735008BD93C /* GYViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYViewContext.h; sourceTree = "<group>"; };
+		26BB5B0522D5D2E50093C5D4 /* GYDevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYDevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BB5B2022D5D4B00093C5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26BB5B2122D5D4B00093C5D4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26BB5B2222D5D4B00093C5D4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26BB5B2322D5D4B00093C5D4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26BB5B2422D5D4B00093C5D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BB5B2D22D5D4D50093C5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BB5B2F22D5D4D50093C5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26BB5B3222D5D52D0093C5D4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		26BB5B3322D5D52D0093C5D4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		26BB5B3522D5D9C30093C5D4 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		26BB5B3722D5DD6A0093C5D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26BB5B8822D5E9810093C5D4 /* ExampleBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleBaseViewController.h; sourceTree = "<group>"; };
+		26BB5B8922D5E9810093C5D4 /* ExampleBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleBaseViewController.m; sourceTree = "<group>"; };
+		26BB5B8E22D5ECE80093C5D4 /* BuiltInTransitionExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuiltInTransitionExample.h; sourceTree = "<group>"; };
+		26BB5B8F22D5ECE80093C5D4 /* BuiltInTransitionExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltInTransitionExample.m; sourceTree = "<group>"; };
+		26D09B4722E3855E007FCBC0 /* GYDevil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYDevil.h; sourceTree = "<group>"; };
+		26D09B4822E3855E007FCBC0 /* GYDevil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYDevil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BB5B0222D5D2E50093C5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26028E1F22DF09A80094B263 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				26028E4122DF20850094B263 /* GYTransitionAnimation.h */,
+				26028E4222DF20850094B263 /* GYTransitionAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		26028E4522DF21FB0094B263 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2644D77522F046D7008BD93C /* UIView+GYTransitaion.h */,
+				2644D77422F046D7008BD93C /* UIView+GYTransitaion.m */,
+				26028E4622DF22150094B263 /* UIViewController+GYTransition.h */,
+				26028E4722DF22150094B263 /* UIViewController+GYTransition.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2644D77A22F04735008BD93C /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				2644D77C22F04735008BD93C /* GYViewContext.h */,
+				2644D77B22F04735008BD93C /* GYViewContext.m */,
+			);
+			name = Context;
+			path = "../../../../../../System/Volumes/Data/Users/zhiyuangao/Desktop/my code/GYDevil/MySource/Context";
+			sourceTree = "<group>";
+		};
+		269002D922DC1D1500B5A793 /* MySource */ = {
+			isa = PBXGroup;
+			children = (
+				2644D77A22F04735008BD93C /* Context */,
+				26028E4522DF21FB0094B263 /* Extension */,
+				26028E1F22DF09A80094B263 /* Animation */,
+				26D09B4722E3855E007FCBC0 /* GYDevil.h */,
+				26D09B4822E3855E007FCBC0 /* GYDevil.m */,
+			);
+			path = MySource;
+			sourceTree = "<group>";
+		};
+		26BB5AFC22D5D2E50093C5D4 = {
+			isa = PBXGroup;
+			children = (
+				26BB5B3722D5DD6A0093C5D4 /* Default-568h@2x.png */,
+				269002D922DC1D1500B5A793 /* MySource */,
+				26BB5B0722D5D2E50093C5D4 /* GYDevil */,
+				26BB5B0622D5D2E50093C5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26BB5B0622D5D2E50093C5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BB5B0522D5D2E50093C5D4 /* GYDevil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BB5B0722D5D2E50093C5D4 /* GYDevil */ = {
+			isa = PBXGroup;
+			children = (
+				26BB5B1E22D5D45A0093C5D4 /* Examples */,
+			);
+			path = GYDevil;
+			sourceTree = "<group>";
+		};
+		26BB5B1E22D5D45A0093C5D4 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				26BB5B3222D5D52D0093C5D4 /* MainViewController.h */,
+				26BB5B3322D5D52D0093C5D4 /* MainViewController.m */,
+				26BB5B3522D5D9C30093C5D4 /* MainViewController.xib */,
+				26BB5B8822D5E9810093C5D4 /* ExampleBaseViewController.h */,
+				26BB5B8922D5E9810093C5D4 /* ExampleBaseViewController.m */,
+				26BB5B8E22D5ECE80093C5D4 /* BuiltInTransitionExample.h */,
+				26BB5B8F22D5ECE80093C5D4 /* BuiltInTransitionExample.m */,
+				2644D76F22F046BB008BD93C /* GYMatchViewController.h */,
+				2644D77122F046BB008BD93C /* GYMatchViewController.m */,
+				2644D77022F046BB008BD93C /* GYMatchViewController.xib */,
+				26BB5B1F22D5D45A0093C5D4 /* Resources */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		26BB5B1F22D5D45A0093C5D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26BB5B2E22D5D4D50093C5D4 /* LaunchScreen.storyboard */,
+				26BB5B2C22D5D4D50093C5D4 /* Main.storyboard */,
+				26BB5B2122D5D4B00093C5D4 /* AppDelegate.h */,
+				26BB5B2322D5D4B00093C5D4 /* AppDelegate.m */,
+				26BB5B2022D5D4B00093C5D4 /* Assets.xcassets */,
+				26BB5B2422D5D4B00093C5D4 /* Info.plist */,
+				26BB5B2222D5D4B00093C5D4 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BB5B0422D5D2E50093C5D4 /* GYDevil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BB5B1B22D5D2EB0093C5D4 /* Build configuration list for PBXNativeTarget "GYDevil" */;
+			buildPhases = (
+				26BB5B0122D5D2E50093C5D4 /* Sources */,
+				26BB5B0222D5D2E50093C5D4 /* Frameworks */,
+				26BB5B0322D5D2E50093C5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYDevil;
+			productName = GYHero;
+			productReference = 26BB5B0522D5D2E50093C5D4 /* GYDevil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BB5AFD22D5D2E50093C5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GY;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zhiyuan Gao";
+				TargetAttributes = {
+					26BB5B0422D5D2E50093C5D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 26BB5B0022D5D2E50093C5D4 /* Build configuration list for PBXProject "GYDevil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BB5AFC22D5D2E50093C5D4;
+			productRefGroup = 26BB5B0622D5D2E50093C5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BB5B0422D5D2E50093C5D4 /* GYDevil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BB5B0322D5D2E50093C5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BB5B3C22D5DEB80093C5D4 /* LaunchScreen.storyboard in Resources */,
+				26BB5B3D22D5DEB80093C5D4 /* Main.storyboard in Resources */,
+				2644D77222F046BB008BD93C /* GYMatchViewController.xib in Resources */,
+				26BB5B3622D5D9C30093C5D4 /* MainViewController.xib in Resources */,
+				26BB5B2722D5D4B00093C5D4 /* Assets.xcassets in Resources */,
+				26BB5B3822D5DD6A0093C5D4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BB5B0122D5D2E50093C5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2644D77D22F04735008BD93C /* GYViewContext.m in Sources */,
+				2644D77622F046D7008BD93C /* UIView+GYTransitaion.m in Sources */,
+				2663AD9622F0460C009A15E3 /* UIViewController+GYTransition.m in Sources */,
+				2644D77322F046BB008BD93C /* GYMatchViewController.m in Sources */,
+				2663AD9822F0460C009A15E3 /* GYTransitionAnimation.m in Sources */,
+				2663AD9922F0460C009A15E3 /* GYDevil.m in Sources */,
+				2663AD9A22F0460C009A15E3 /* MainViewController.m in Sources */,
+				2663AD9B22F0460C009A15E3 /* ExampleBaseViewController.m in Sources */,
+				2663AD9C22F0460C009A15E3 /* BuiltInTransitionExample.m in Sources */,
+				2663AD9E22F0460C009A15E3 /* AppDelegate.m in Sources */,
+				2663AD9F22F0460C009A15E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26BB5B2C22D5D4D50093C5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BB5B2D22D5D4D50093C5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26BB5B2E22D5D4D50093C5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BB5B2F22D5D4D50093C5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26BB5B1922D5D2EB0093C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26BB5B1A22D5D2EB0093C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BB5B1C22D5D2EB0093C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = R6NT5GC5G5;
+				INFOPLIST_FILE = "$(SRCROOT)/GYDevil/Examples/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gy.GYDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26BB5B1D22D5D2EB0093C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = R6NT5GC5G5;
+				INFOPLIST_FILE = "$(SRCROOT)/GYDevil/Examples/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gy.GYDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BB5B0022D5D2E50093C5D4 /* Build configuration list for PBXProject "GYDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BB5B1922D5D2EB0093C5D4 /* Debug */,
+				26BB5B1A22D5D2EB0093C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BB5B1B22D5D2EB0093C5D4 /* Build configuration list for PBXNativeTarget "GYDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BB5B1C22D5D2EB0093C5D4 /* Debug */,
+				26BB5B1D22D5D2EB0093C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26BB5AFD22D5D2E50093C5D4 /* Project object */;
+}

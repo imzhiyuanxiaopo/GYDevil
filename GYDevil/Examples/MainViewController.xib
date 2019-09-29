@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="fifth" destination="xgY-js-gat" id="buQ-IP-aDZ"/>
+                <outlet property="first" destination="oQy-Kk-W2d" id="hK7-UE-Tmj"/>
+                <outlet property="fourth" destination="DSE-Gc-LyG" id="e75-wL-KpW"/>
+                <outlet property="second" destination="4kF-uA-Vs8" id="lkr-Cu-wFS"/>
+                <outlet property="third" destination="y3q-fs-CXA" id="TIN-2G-8Eu"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Y26-yu-b0Z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HeroLogo" translatesAutoresizingMaskIntoConstraints="NO" id="B6U-vy-4XN">
+                    <rect key="frame" x="20" y="89" width="374" height="129"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="B6U-vy-4XN" secondAttribute="height" multiplier="2172:750" id="a9D-SA-f9x"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQy-Kk-W2d">
+                    <rect key="frame" x="20" y="288" width="374" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="g6l-qr-2Ed"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="1. Built In Animations">
+                        <color key="titleColor" red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                            <color key="value" red="0.65098039215686276" green="0.65098039215686276" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickFirst:" destination="-1" eventType="touchUpInside" id="eND-2W-C8e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3q-fs-CXA">
+                    <rect key="frame" x="20" y="438" width="374" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="TXk-OW-aIo"/>
+                    </constraints>
+                    <state key="normal" title="3. Match Cell in Collection">
+                        <color key="titleColor" red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                            <color key="value" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-Gc-LyG">
+                    <rect key="frame" x="20" y="513" width="374" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="Tjb-QL-MaG"/>
+                    </constraints>
+                    <state key="normal" title="4. App Store Transition">
+                        <color key="titleColor" red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                            <color key="value" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgY-js-gat">
+                    <rect key="frame" x="20" y="578" width="374" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="HQF-l8-NLC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Legacy Examples"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kF-uA-Vs8">
+                    <rect key="frame" x="20" y="363" width="374" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="6zK-H9-TaE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="2. Match Animation">
+                        <color key="titleColor" red="0.0078431372549019607" green="0.0078431372549019607" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                            <color key="value" red="0.65098039220000004" green="0.65098039220000004" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.80000000000000004"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickMatch:" destination="-1" eventType="touchUpInside" id="MgC-Qv-poc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oQy-Kk-W2d" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="0PB-FK-T2u"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="y3q-fs-CXA" secondAttribute="trailing" constant="20" id="7Qb-BN-W4T"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oQy-Kk-W2d" secondAttribute="trailing" constant="20" id="9OP-zr-BUK"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="B6U-vy-4XN" secondAttribute="trailing" constant="20" id="A9e-el-jo5"/>
+                <constraint firstItem="4kF-uA-Vs8" firstAttribute="top" secondItem="oQy-Kk-W2d" secondAttribute="bottom" constant="10" id="HRA-XU-mVe"/>
+                <constraint firstItem="DSE-Gc-LyG" firstAttribute="top" secondItem="y3q-fs-CXA" secondAttribute="bottom" constant="10" id="JkY-Mb-jAc"/>
+                <constraint firstItem="oQy-Kk-W2d" firstAttribute="top" secondItem="B6U-vy-4XN" secondAttribute="bottom" constant="70" id="K9m-A1-R69"/>
+                <constraint firstItem="B6U-vy-4XN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="45" id="Kx9-de-Z02"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xgY-js-gat" secondAttribute="trailing" constant="20" id="OtC-ah-aOX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DSE-Gc-LyG" secondAttribute="trailing" constant="20" id="aSG-E0-AWW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4kF-uA-Vs8" secondAttribute="trailing" constant="20" id="edH-a9-gmv"/>
+                <constraint firstItem="y3q-fs-CXA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="eh6-4j-kAe"/>
+                <constraint firstItem="B6U-vy-4XN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="gej-tF-AT1"/>
+                <constraint firstItem="DSE-Gc-LyG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="hEC-pw-3cj"/>
+                <constraint firstItem="xgY-js-gat" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="udK-Ta-xmM"/>
+                <constraint firstItem="4kF-uA-Vs8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vhA-dy-Cdw"/>
+                <constraint firstItem="xgY-js-gat" firstAttribute="top" secondItem="DSE-Gc-LyG" secondAttribute="bottom" id="wTd-9B-Uw8"/>
+                <constraint firstItem="y3q-fs-CXA" firstAttribute="top" secondItem="4kF-uA-Vs8" secondAttribute="bottom" constant="10" id="xAa-Rg-pBk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="139" y="74"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HeroLogo" width="724" height="250"/>
+    </resources>
+</document>
